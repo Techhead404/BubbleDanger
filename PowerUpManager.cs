@@ -8,10 +8,17 @@ public class PowerUpManager : MonoBehaviour
     public GameObject FastPower;
     public GameObject SlowPower;
     
+    
+    
     public void Start()
     {
-        Powerup();
+        //Powerup();
+
         
+        var powerUp = new List<string>
+        {
+            FastPower, SlowPower
+        };
     }
     public void Update()
     {

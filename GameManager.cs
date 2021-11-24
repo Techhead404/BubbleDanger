@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
     private string gameID = "3111634";
     private bool testMode = false;
     public  int loadCount = 0;
-    public string leaderboard = "CgkIrNfe4eUHEAIQAw";
+    public string leaderboard = ;
     
     
 
